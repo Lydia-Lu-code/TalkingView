@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		5BDD18E82C3BD61000924BB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDD18E72C3BD61000924BB7 /* AppDelegate.swift */; };
 		5BDD18EA2C3BD61000924BB7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDD18E92C3BD61000924BB7 /* SceneDelegate.swift */; };
-		5BDD18EC2C3BD61000924BB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDD18EB2C3BD61000924BB7 /* ViewController.swift */; };
 		5BDD18EF2C3BD61000924BB7 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5BDD18EE2C3BD61000924BB7 /* Base */; };
 		5BDD18F12C3BD61100924BB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BDD18F02C3BD61100924BB7 /* Assets.xcassets */; };
 		5BDD18F42C3BD61100924BB7 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5BDD18F32C3BD61100924BB7 /* Base */; };
+		5BDD18FD2C3BD62C00924BB7 /* TalkerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDD18FB2C3BD62C00924BB7 /* TalkerCell.swift */; };
+		5BDD18FE2C3BD62C00924BB7 /* TalkerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BDD18FC2C3BD62C00924BB7 /* TalkerCell.xib */; };
+		5BDD19002C3BD64600924BB7 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDD18FF2C3BD64600924BB7 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5BDD18E42C3BD61000924BB7 /* TalkingView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalkingView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BDD18E72C3BD61000924BB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BDD18E92C3BD61000924BB7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5BDD18EB2C3BD61000924BB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5BDD18EE2C3BD61000924BB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BDD18F02C3BD61100924BB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BDD18F32C3BD61100924BB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BDD18F52C3BD61100924BB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BDD18FB2C3BD62C00924BB7 /* TalkerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TalkerCell.swift; sourceTree = "<group>"; };
+		5BDD18FC2C3BD62C00924BB7 /* TalkerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TalkerCell.xib; sourceTree = "<group>"; };
+		5BDD18FF2C3BD64600924BB7 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				5BDD18E72C3BD61000924BB7 /* AppDelegate.swift */,
 				5BDD18E92C3BD61000924BB7 /* SceneDelegate.swift */,
-				5BDD18EB2C3BD61000924BB7 /* ViewController.swift */,
 				5BDD18ED2C3BD61000924BB7 /* Main.storyboard */,
 				5BDD18F02C3BD61100924BB7 /* Assets.xcassets */,
 				5BDD18F22C3BD61100924BB7 /* LaunchScreen.storyboard */,
 				5BDD18F52C3BD61100924BB7 /* Info.plist */,
+				5BDD18FB2C3BD62C00924BB7 /* TalkerCell.swift */,
+				5BDD18FC2C3BD62C00924BB7 /* TalkerCell.xib */,
+				5BDD18FF2C3BD64600924BB7 /* TableViewController.swift */,
 			);
 			path = TalkingView;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 			files = (
 				5BDD18F12C3BD61100924BB7 /* Assets.xcassets in Resources */,
 				5BDD18F42C3BD61100924BB7 /* Base in Resources */,
+				5BDD18FE2C3BD62C00924BB7 /* TalkerCell.xib in Resources */,
 				5BDD18EF2C3BD61000924BB7 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BDD18EC2C3BD61000924BB7 /* ViewController.swift in Sources */,
 				5BDD18E82C3BD61000924BB7 /* AppDelegate.swift in Sources */,
+				5BDD18FD2C3BD62C00924BB7 /* TalkerCell.swift in Sources */,
+				5BDD19002C3BD64600924BB7 /* TableViewController.swift in Sources */,
 				5BDD18EA2C3BD61000924BB7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
